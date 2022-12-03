@@ -1,0 +1,55 @@
+@import 'fonts.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: Figtree, system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #213547;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+button {
+  background-color: #535bf2;
+}
+
+input[type='range'] {
+  --range-shdw: none;
+  min-height: 38px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+}
+
+input[type='range'].range-pink::-webkit-slider-thumb {
+  background-color: #ed2580;
+}
+
+input[type='range'].range-orange::-webkit-slider-thumb {
+  background-color: #f26e57;
+}
+
+input[type='range'].range-violet::-webkit-slider-thumb {
+  background-color: #974a9a;
+}
